@@ -42,4 +42,12 @@
 7. set children routes
 
 8. set links on the header components
+    const Header = () => {
+    return (
+        <nav>
+            <Link to = '/'>Home</Link>
+            <Link to = '/orders'>Orders</Link>
+            <Link to = '/about'>About</Link>
+        </nav>
+    );
 */
